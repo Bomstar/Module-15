@@ -1,0 +1,17 @@
+:root {
+  --primery-color: #ff4240;
+  --Dark-01: #424247;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: #131318;
+}
+
+li,
+p {
+  color: var(--Dark-01);
+}
