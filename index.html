@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -10,6 +12,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="global.css" />
+
+    <!-- Fontawosame -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
@@ -17,7 +21,22 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <!-- Tailwinds Css -->
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- daisyUI -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css"
+      rel="stylesheet"
+      type="text/css"
+    />
     <title>Hockey's</title>
   </head>
   <body class="px-20 py-10">
@@ -433,6 +452,240 @@
           </div>
         </div>
       </section>
+
+      <!-- Accordion -->
+      <section class="space-y-10">
+        <div class="flex border-dashed border-y-2 py-10 justify-center">
+          <div class="space-y-4 lg:w-[550px]">
+            <h2 class="text-center font-extrabold text-4xl">
+              Clients Question
+            </h2>
+            <p class="text-center">
+              Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+              turpis placerat dolor. Purus urna in sit nullam proin.
+            </p>
+          </div>
+        </div>
+        <div class="flex gap-10">
+          <div>
+            <img class="w-full" src="./Images/11.png" />
+          </div>
+          <div>
+            <!-- Accordion Item 1 -->
+            <div class="overflow-hidden border-b py-3">
+              <input
+                type="checkbox"
+                name="accordion"
+                class="peer hidden"
+                id="accordion-1"
+                checked
+              />
+              <label
+                for="accordion-1"
+                class="flex justify-between items-center bg-white p-4 cursor-pointer"
+              >
+                <span class="font-medium">Section 1</span>
+                <span
+                  class="text-gray-500 flex justify-center items-center w-1 h-1"
+                >
+                  <!-- Plus Icon (shown by default) -->
+                  <span id="plus-1" class="text-2xl hidden font-medium">+</span>
+                  <!-- Minus Icon (hidden by default) -->
+                  <span id="minus-1" class="text-3xl font-medium">-</span>
+                </span>
+              </label>
+              <div
+                class="max-h-0 bg-gray-50 overflow-hidden transition-all duration-300 peer-checked:max-h-40"
+              >
+                <div class="p-4">
+                  <p class="text-gray-600">
+                    Content for section 1. This can be any HTML content you want
+                    to show when the accordion is expanded.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Accordion Item 2 -->
+            <div class="overflow-hidden border-b py-3">
+              <input
+                type="checkbox"
+                name="accordion"
+                class="peer hidden"
+                id="accordion-2"
+              />
+              <label
+                for="accordion-2"
+                class="flex justify-between items-center bg-white p-4 cursor-pointer"
+              >
+                <span class="font-medium">Section 2</span>
+                <span
+                  class="text-gray-500 flex justify-center items-center w-1 h-1"
+                >
+                  <!-- Plus Icon (shown by default) -->
+                  <span id="plus-2" class="text-2xl font-medium">+</span>
+                  <!-- Minus Icon (hidden by default) -->
+                  <span id="minus-2" class="text-3xl hidden font-medium"
+                    >-</span
+                  >
+                </span>
+              </label>
+              <div
+                class="max-h-0 bg-gray-50 overflow-hidden transition-all duration-300 peer-checked:max-h-40"
+              >
+                <div class="p-4">
+                  <p class="text-gray-600">
+                    Content for section 2. You can put any content here - text,
+                    images, forms, etc.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Accordion Item 3 -->
+            <div class="overflow-hidden border-b py-3">
+              <input
+                type="checkbox"
+                name="accordion"
+                class="peer hidden"
+                id="accordion-3"
+              />
+              <label
+                for="accordion-3"
+                class="flex justify-between items-center bg-white p-4 cursor-pointer"
+              >
+                <span class="font-medium">Section 3</span>
+                <span
+                  class="text-gray-500 flex justify-center items-center w-1 h-1"
+                >
+                  <!-- Plus Icon (shown by default) -->
+                  <span id="plus-3" class="text-2xl font-medium">+</span>
+                  <!-- Minus Icon (hidden by default) -->
+                  <span id="minus-3" class="text-3xl hidden font-medium"
+                    >-</span
+                  >
+                </span>
+              </label>
+              <div
+                class="max-h-0 bg-gray-50 overflow-hidden transition-all duration-300 peer-checked:max-h-40"
+              >
+                <div class="p-4">
+                  <p class="text-gray-600">
+                    Content for section 3. You can put any content here - text,
+                    images, forms, etc.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Accordion Item 4 -->
+            <div class="overflow-hidden border-b py-3">
+              <input
+                type="checkbox"
+                name="accordion"
+                class="peer hidden"
+                id="accordion-4"
+              />
+              <label
+                for="accordion-4"
+                class="flex justify-between items-center bg-white p-4 cursor-pointer"
+              >
+                <span class="font-medium">Section 4</span>
+                <span
+                  class="text-gray-500 flex justify-center items-center w-1 h-1"
+                >
+                  <!-- Plus Icon (shown by default) -->
+                  <span id="plus-4" class="text-2xl font-medium">+</span>
+                  <!-- Minus Icon (hidden by default) -->
+                  <span id="minus-4" class="text-3xl hidden font-medium"
+                    >-</span
+                  >
+                </span>
+              </label>
+              <div
+                class="max-h-0 bg-gray-50 overflow-hidden transition-all duration-300 peer-checked:max-h-40"
+              >
+                <div class="p-4">
+                  <p class="text-gray-600">
+                    Content for section 4. You can put any content here - text,
+                    images, forms, etc.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Accordion Item 5 -->
+            <div class="overflow-hidden border-b py-3">
+              <input
+                type="checkbox"
+                name="accordion"
+                class="peer hidden"
+                id="accordion-5"
+              />
+              <label
+                for="accordion-5"
+                class="flex justify-between items-center bg-white p-4 cursor-pointer"
+              >
+                <span class="font-medium">Section 5</span>
+                <span
+                  class="text-gray-500 flex justify-center items-center w-1 h-1"
+                >
+                  <!-- Plus Icon (shown by default) -->
+                  <span id="plus-5" class="text-2xl font-medium">+</span>
+                  <!-- Minus Icon (hidden by default) -->
+                  <span id="minus-5" class="text-3xl hidden font-medium"
+                    >-</span
+                  >
+                </span>
+              </label>
+              <div
+                class="max-h-0 bg-gray-50 overflow-hidden transition-all duration-300 peer-checked:max-h-40"
+              >
+                <div class="p-4">
+                  <p class="text-gray-600">
+                    Content for section 5. You can put any content here - text,
+                    images, forms, etc.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Accordion Item 6 -->
+            <div class="overflow-hidden border-b py-3">
+              <input
+                type="checkbox"
+                name="accordion"
+                class="peer hidden"
+                id="accordion-6"
+              />
+              <label
+                for="accordion-6"
+                class="flex justify-between items-center bg-white p-4 cursor-pointer"
+              >
+                <span class="font-medium">Section 6</span>
+                <span
+                  class="text-gray-500 flex justify-center items-center w-1 h-1"
+                >
+                  <!-- Plus Icon (shown by default) -->
+                  <span id="plus-6" class="text-2xl font-medium">+</span>
+                  <!-- Minus Icon (hidden by default) -->
+                  <span id="minus-6" class="text-3xl hidden font-medium"
+                    >-</span
+                  >
+                </span>
+              </label>
+              <div
+                class="max-h-0 bg-gray-50 overflow-hidden transition-all duration-300 peer-checked:max-h-40"
+              >
+                <div class="p-4">
+                  <p class="text-gray-600">
+                    Content for section 6. You can put any content here - text,
+                    images, forms, etc.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <script src="main.js"></script>
   </body>
 </html>

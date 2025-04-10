@@ -27,3 +27,13 @@ p {
 i {
   margin-right: 8px;
 }
+
+.collapses {
+  border-radius: var(0.5rem, 1rem);
+  grid-template-rows: max-content 0fr;
+  width: 100%;
+  transition: grid-template-rows 0.2s;
+  display: grid;
+  position: relative;
+  overflow: hidden;
+}
